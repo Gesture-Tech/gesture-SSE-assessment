@@ -25,53 +25,37 @@ Please let us know if you have any questions. We’re looking forward to reviewi
 
 #### Prompt
 
-Gesture plans to build a Reach360 BI Concierge Agent that:
+Design a conversational or interactive system that:
+- Educates users about a product or service
+- Identifies high-intent users and captures actionable signals
+- Improves over time based on usage and feedback
+- Can integrate with external systems (e.g. CRM, analytics, internal tools)
 
-Educates enterprise prospects about Reach360 in a conversational way
-
-Qualifies high-intent users and converts them into actionable sales leads
-
-Learns over time via experimentation and feedback loops
-
-Eventually integrates with REAL.AI for targeting and recommendations
-
-Your Task
+#### Your Task
 Provide a short written design covering:
-
-- Architecture
-
-- Core components (frontend, backend, AI layer, data storage)
-
-- How conversations are logged and reused
-
-- How CRM integration would work (e.g., Zoho)
-
-- Experimentation & Measurement
-
-- How Reach360 BI Concierge Agent behavior would be tested and improved
-
+Architecture
+- High-level system architecture
+- Core components (frontend, backend, logic/AI layer, data storage)
+- How interactions are logged and reused
+- How external integrations would work
+  
+#### Experimentation & Measurement
+- How system behavior would be tested and improved over time
 - What metrics matter and why
+- How to avoid misleading or noisy experiments
 
-- How to avoid noisy or misleading experiments
-
-- Decision Logic
-
-- How free-text input maps to verticals and campaigns
-
-- Rules vs models: where each makes sense
-
+#### Decision Logic
+- How free-form user input maps to structured decisions
+- Rules vs models: where each is appropriate
 - How the system evolves safely over time
-
-- Tradeoffs & Risks
-
+  
+#### Tradeoffs & Risks
 - Key technical risks
-
 - Product or data risks
+- What you would explicitly not build in v1
 
-What you would explicitly not build in v1
-
-#### Part 1 Deliverable: 2–4 pages of written explanation (bullets fine). Diagrams optional.
-
+#### Part 1 Deliverable:
+2–4 pages of written explanation (bullets are fine). Diagrams optional.
 
 #
 ## 🟧 PART 2 — TARGETED IMPLEMENTATION (Supporting Signal)
@@ -98,7 +82,7 @@ Outputs:
 OR
 
 #### Option B — Experimentation Framework Skeleton
-#### Implement a minimal framework showing: How Reach360 BI Concierge Agent strategies are A/B tested
+#### Implement a minimal framework showing: 
 
 - How results are logged
 
@@ -108,12 +92,16 @@ OR
 
 OR
 
-#### Option C — REAL.AI Scoring Slice
-#### Build a simplified scoring model that: Takes synthetic interaction data
+#### Option C — Scoring / Ranking Slice
+#### Build a simplified scoring model that:
 
 - Outputs a score + explanation
 
+- Takes synthetic interaction data
+
 - Is explainable and evolvable
 
-#### Part 2 Deliverable (applies to any of the chosen options above): Code & Short README explaining what you built, why you chose it, and what comes next
+#### Part 2 Deliverable (applies to any of the chosen options above):
+1. Code
+2. Short README explaining what you built, why you chose it, and what comes next
 
